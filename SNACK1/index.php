@@ -1,4 +1,5 @@
 <?php
+/* Array con le partite della giornata */
    $matches = [
     [
         'teams' => 'Milan - Inter',
@@ -41,8 +42,10 @@
     <body>
     <div class="container">
         <ul>
+            <!-- Ciclo l'array per ricavare i risultati -->
             <?php foreach($matches as $match): ?>
                 <li>
+                    <!-- Per ogni partita visualizzo i nomi delle squadre e il punteggio -->
                     <?php echo $match['teams']." | ".$match['point']; ?>
                 </li>
             <?php endforeach; ?>
