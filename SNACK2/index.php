@@ -17,9 +17,6 @@
         /* Se anche UNA SOLA condizione non è soddistatta stampo "ACCESSO NEGATO */ 
             echo "Accesso Negato";
         }
-    } else {
-        /* Se un parametro nella form stampo "ACCESSO NEGATO */ 
-        echo "Accesso Negato";
     }
 ?>
 
@@ -30,7 +27,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Snack 2 Blocco 1 PHP</title>
+        <title>Snack 3 Blocco 1 PHP</title>
     </head>
 
     <body>
